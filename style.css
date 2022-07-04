@@ -1,6 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
 
+h1 {
+    font-size: 50px;
+}
+
+.color {
+    color: steelblue;
+}
+
+.container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left:5% ;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.btn {
+    background-image: linear-gradient(steelblue, cadetblue);
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 1rem;
+    cursor: pointer;
 }
